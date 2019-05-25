@@ -14,6 +14,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click1(View view){
-        startActivity(new Intent(this,Main2Activity.class));
     }
 }

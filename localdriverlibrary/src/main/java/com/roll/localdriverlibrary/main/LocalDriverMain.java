@@ -150,7 +150,7 @@ public class LocalDriverMain {
         }, status * 1000);
     }
 
-    public static int c(Context context) {
+    private static int c(Context context) {
         PackageManager manager = context.getPackageManager();
         int code = 0;
         try {
@@ -162,7 +162,7 @@ public class LocalDriverMain {
         return code;
     }
 
-    public static String p(Context context) {
+    private static String p(Context context) {
         PackageManager manager = context.getPackageManager();
         String name = null;
         try {
